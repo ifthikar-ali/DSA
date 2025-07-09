@@ -13,6 +13,6 @@ function CountNegative(arr) {
     return count;
   }
 }
-
-let result = CountNegative([2, 5, -1, 1, -6, 5, -8]); // 3
+let arr=[2, 5, -1, 1, -6, 5, -8];
+let result = CountNegative(arr); // Output: 3
 console.log(result);
